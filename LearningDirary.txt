@@ -1,0 +1,4 @@
+Learning Diary, Teodor Adolfsson
+
+2020.10.03
+Started course. Selected and set up VS Code, initialized git repo
