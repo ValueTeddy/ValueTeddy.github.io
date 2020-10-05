@@ -3,5 +3,10 @@ Learning Diary, Teodor Adolfsson, 2020
 10.03
 Started course. Selected and set up VS Code, initialized git repo. Familiarized myself with Node.js and sass. 
 
-20.04
+10.04
 installing continued setting up npm, node-sass. HTML skeleton and scss setup and linked with css. 
+
+10.05
+Finished base html. Lots of sass. Added styles to most items, and added bg image.
+Learned pros of sass over regular css: features like variables and nesting.
+Learned @Mixin, @Include and using partial sass files.
