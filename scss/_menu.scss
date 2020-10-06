@@ -91,7 +91,7 @@
             border: solid 3px $secondary-color;
         }
     }
-
+    //format list
     .list-item {
         transform: translate3d(600px, 0, 0);
         @include easeOut;
@@ -104,6 +104,7 @@
             color: $secondary-color;
         }
     }
+    //format links
     .menu-link {
         display: inline-block;
         position: relative;
