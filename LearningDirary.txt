@@ -13,3 +13,9 @@ Learned @Mixin, @Include and using partial sass files.
 
 10.06
 Created the menu button. made it transform on click using js listening and adding and removing classes to items (such a clever solution). made the menu slide in and out and animated the list items through a sass for loop. Syncing local repo to GitHub.
+
+10.07
+Made site responsive to different window sizes using media queries mixins. 
+
+10.16
+Learned to use css grid by making the about-page.
