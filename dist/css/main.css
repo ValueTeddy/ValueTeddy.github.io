@@ -4,13 +4,13 @@
   right: 35px;
   top: 35px;
   cursor: pointer;
-  transition: all 0.5s ease-out; }
+  transition: all 0.2s ease-out; }
   .menu-button .button-line {
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
     background: #fff;
-    transition: all 0.5s ease-out; }
+    transition: all 0.2s ease-out; }
   .menu-button.close {
     transform: rotate(180deg); }
     .menu-button.close .button-line:nth-child(1) {
@@ -44,13 +44,13 @@
     background: #373737;
     list-style: none;
     transform: translate3d(0, -100%, 0);
-    transition: all 0.5s ease-out; }
+    transition: all 0.2s ease-out; }
     .menu-right.show {
       transform: translate3d(0, 0, 0); }
   .menu-left {
     background: #444;
     transform: translate3d(0, -100%, 0);
-    transition: all 0.5s ease-out; }
+    transition: all 0.2s ease-out; }
     .menu-left.show {
       transform: translate3d(0, 0, 0); }
     .menu-left .portrait {
@@ -62,11 +62,11 @@
       border: solid 3px #123; }
   .menu .list-item {
     transform: translate3d(600px, 0, 0);
-    transition: all 0.5s ease-out; }
+    transition: all 0.2s ease-out; }
     .menu .list-item.show {
       transform: translate3d(0, 0, 0); }
-    .menu .list-item.current > a {
-      color: #123; }
+  .menu .list-item-current {
+    color: #123; }
   .menu .menu-link {
     display: inline-block;
     position: relative;
@@ -76,7 +76,7 @@
     font-weight: 300;
     color: #fff;
     text-decoration: none;
-    transition: all 0.5s ease-out; }
+    transition: all 0.2s ease-out; }
     .menu .menu-link:hover {
       color: #123; }
 
@@ -118,7 +118,8 @@ body {
 
 h1, h2, h3 {
   margin: 0;
-  font-weight: 400; }
+  font-weight: 400;
+  text-align: center; }
   h1.large-heading, h2.large-heading, h3.large-heading {
     font-size: 4rem; }
   h1.small-heading, h2.small-heading, h3.small-heading {
@@ -147,7 +148,7 @@ main {
       padding: 0.4rem; }
       main .icons a:hover {
         color: #123;
-        transition: all 0.5s ease-out; }
+        transition: all 0.2s ease-out; }
   main#home {
     overflow: hidden; }
     main#home h1 {
@@ -173,6 +174,24 @@ main {
   background: #2b2b2b;
   color: set-text-color(#444);
   height: 40px; }
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem; }
+  .boxes div {
+    font-size: 2rem;
+    border: 3px #fff solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 0.3rem;
+    transition: all 0.2s ease-out; }
+    .boxes div:hover {
+      font-size: 2rem;
+      border: 3px #123 solid;
+      padding: 1.5rem 2.5rem;
+      margin-bottom: 0.3rem; }
 
 @media screen and (max-width: 768px) {
   main {
