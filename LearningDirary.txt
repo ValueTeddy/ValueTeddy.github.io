@@ -22,3 +22,6 @@ Learned to use css grid by making the about-page.
 
 10.18
 Familiarized myself with css flexbox by making the contact page.
+
+10.19
+Publishing using GitHub pages.
