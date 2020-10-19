@@ -103,7 +103,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/bg.jpg);
+    background: url("../img/portrait.jpg");
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -114,7 +114,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background-color: rgba(68, 68, 68, 0.7); }
+      background-color: rgba(68, 68, 68, 0.8); }
 
 h1, h2, h3 {
   margin: 0;
@@ -143,7 +143,8 @@ main {
   padding: 4rem;
   min-height: calc(100vh-40px); }
   main .icons {
-    margin: 1rem; }
+    margin: 1rem;
+    text-align: center; }
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
@@ -158,7 +159,8 @@ main {
   display: grid;
   grid-gap: 30px;
   grid-template-areas: "bio bio bio" "job1 job2 job3";
-  grid-template-columns: repeat(3, 1fr); }
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center; }
   .about-info .bio {
     grid-area: bio; }
   .about-info .job1 {
@@ -186,6 +188,7 @@ main {
     border: 3px #fff solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 0.3rem;
+    text-align: center;
     transition: all 0.2s ease-out; }
     .boxes div:hover {
       font-size: 2rem;
