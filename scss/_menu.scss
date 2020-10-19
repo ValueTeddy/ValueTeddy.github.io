@@ -96,12 +96,14 @@
         transform: translate3d(600px, 0, 0);
         @include easeOut;
 
+        &.current {
+        border: solid 2px $secondary-color;
+        }
+
         &.show {
             transform: translate3d(0, 0, 0);
         }
-        &.current {
-        color: $secondary-color;
-        }
+        
     }
     
     //format links
@@ -110,10 +112,8 @@
         position: relative;
         font-size: 30px;
         text-transform: uppercase;
-        padding: 1rem;
+        padding: 0.5rem;
         font-weight: 300;
-        color: #fff;
-        text-decoration: none;
         @include easeOut;
 
         &:hover {

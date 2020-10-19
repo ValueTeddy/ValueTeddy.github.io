@@ -63,19 +63,17 @@
   .menu .list-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.2s ease-out; }
+    .menu .list-item.current {
+      border: solid 2px #123; }
     .menu .list-item.show {
       transform: translate3d(0, 0, 0); }
-  .menu .list-item-current {
-    color: #123; }
   .menu .menu-link {
     display: inline-block;
     position: relative;
     font-size: 30px;
     text-transform: uppercase;
-    padding: 1rem;
+    padding: 0.5rem;
     font-weight: 300;
-    color: #fff;
-    text-decoration: none;
     transition: all 0.2s ease-out; }
     .menu .menu-link:hover {
       color: #123; }
