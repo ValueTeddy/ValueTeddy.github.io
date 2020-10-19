@@ -99,11 +99,10 @@
         &.show {
             transform: translate3d(0, 0, 0);
         }
+        &.current {
+        color: $secondary-color;
+        }
     }
-    .list-item-current {
-    color: $secondary-color;
-    }
-    
     
     //format links
     .menu-link {
